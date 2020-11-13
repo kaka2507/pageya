@@ -1,0 +1,40 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo for pageya",
+  "main": "index.js",
+  "author": "Bao Doan N.",
+  "private": true,
+  "scripts": {
+    "buildcss": "postcss src/styles/tailwind.css -o src/styles/style.css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "clean": "rm -rf node_modules && rm -rf build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.7",
+    "postcss-cli": "^8.2.0",
+    "tailwindcss": "^1.9.6"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3",
+    "@form-composer/core": "0.0.1",
+    "@form-composer/ant-fields": "0.0.11",
+    "pageya": "1.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build-pageya": "yarn workspace pageya build",
+    "watch-pageya": "yarn workspace pageya watch",
+    "start-demo": "yarn workspace demo start"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "pageya",
+  "version": "0.0.1",
+  "description": "React Website Builder library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": "git@github.com:vcoder4c/form-composer.git",
+  "author": "Bao Doan N.",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "watch": "rollup -cw",
+    "clean": "rm -rf node_modules && rm -rf dist"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^6.0.0",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "rollup": "^2.27.1",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@form-composer/ant-fields": "^0.0.11",
+    "@form-composer/core": "0.0.1",
+    "antd": "^4.6.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
