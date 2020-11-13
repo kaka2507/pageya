@@ -11,6 +11,7 @@
     "build": "react-scripts build",
     "clean": "rm -rf node_modules && rm -rf build"
   },
+  "homepage": "/pageya",
   "devDependencies": {
     "autoprefixer": "^10.0.2",
     "postcss": "^8.1.7",
