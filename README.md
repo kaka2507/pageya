@@ -1,6 +1,6 @@
 # What is Pageya?
 
-React based Page Builder library
+React Page Builder library
 
 # Demo
 
